@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    color: white;
+    background-color: darkcyan;
+}
+
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: relative;
+}
+
+.middle-box {
+    text-align: center;
+    position: relative;
+    display: block;
+}
+
+img {
+    border-radius: 50%;
+    border: 5px solid #fff;
+    height: 150px;
+    width: 150px;
+}
+
+h1 {
+    font-family: 'Dosis', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    margin: 10px 10px;
+}
+
+p {
+    margin: 0;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-item {
+   margin: 20px 20px 0 20px;
+   padding: 16px;
+   width: 36px;
+   height: 36px;
+   border: 2px solid #fff;
+   border-radius: 100%; 
+   align-items: center;
+   justify-content: center;
+   display: flex;
+}
+
+.info {
+    width: 500px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-style: italic;
+    display: inline-block;
+}
+
+.button {
+    border-radius: 30px;
+    border: 2px solid #fff;
+    margin-top: 20px;
+    width: 100px;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    left: 0;
+}
+
+.bg {
+  background: url("https://wallpaper-house.com/data/out/7/wallpaper2you_191722.jpg");
+  height: 100%; 
+  width: 100%;
+  background-size: 1500px; 
+  position: absolute;
+  
+}
